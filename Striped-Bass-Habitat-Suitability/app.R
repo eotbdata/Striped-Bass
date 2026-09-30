@@ -29,10 +29,10 @@ library(ragg)
 
 #### UPDATE THIS WITH CURRENT CRUISE FILE
 
-thiscruise <- "BAY918.csv"
+thiscruise <- "BAY919.csv"
 
 #Late or Early? Update
-lateorearly <- "Late"
+lateorearly <- ""
 
 setwd(here("Striped-Bass-Habitat-Suitability"))
 

@@ -26,7 +26,7 @@ library(ragg)", "2025-04-15")
 #Define Variables
 
 #What cruise are we working with? Update for this month's
-rawcruisedata<-read_csv("BAY918.csv")
+rawcruisedata<-read_csv("BAY919.csv")
 
 #save a copy to the stripd bass habitat:
 #fwrite(rawcruisedata, file = here("Striped-Bass-Habitat-Suitability"), "BAY893.csv", row.names=FALSE)
