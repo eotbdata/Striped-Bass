@@ -1,0 +1,31 @@
+months,maxdatahs,mindatahs,monthseq,timekey,meansuitability
+January,100,97.51,1,historic,99.91967742
+February,100,100,2,historic,100
+March,100,99.96,3,historic,99.99891892
+April,100,94.29,4,historic,99.09947368
+May,99.96,79.55,5,historic,88.6565625
+Early June,95.28,74,6,historic,84.20641026
+Late June,93.11,73.02,7,historic,83.491
+Early July,94.31,22.69,8,historic,67.17725
+Late July,93.27,19.86,9,historic,66.8315
+Early August,91.2,35.96,10,historic,74.15325
+Late August,90.89,40.39,11,historic,76.10205128
+September,97.76,70.15,12,historic,90.13525
+October,100,87.55,13,historic,97.211
+November,100,94.84,14,historic,99.81432432
+December,100,100,15,historic,100
+January,100,97.51,1,currentyear,100
+February,100,100,2,currentyear,100
+March,100,99.96,3,currentyear,100
+April,100,94.29,4,currentyear,100
+May,99.96,79.55,5,currentyear,81.2
+Early June,95.28,74,6,currentyear,71.9
+Late June,93.11,73.02,7,currentyear,62.3
+Early July,94.31,22.69,8,currentyear,33.6
+Late July,93.27,19.86,9,currentyear,59.6
+Early August,91.2,35.96,10,currentyear,46.8
+Late August,90.89,40.39,11,currentyear,42.2
+September,97.76,70.15,12,currentyear,52.1
+October,100,87.55,13,currentyear,88.4
+November,100,94.84,14,currentyear,
+December,100,100,15,currentyear,

@@ -29,7 +29,7 @@ library(ragg)
 
 #### UPDATE THIS WITH CURRENT CRUISE FILE
 
-thiscruise <- "BAY919.csv"
+thiscruise <- "BAY922.csv"
 
 #Late or Early? Update
 lateorearly <- ""

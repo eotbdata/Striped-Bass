@@ -26,7 +26,7 @@ library(ragg)", "2025-04-15")
 #Define Variables
 
 #What cruise are we working with? Update for this month's
-rawcruisedata<-read_csv("BAY919.csv")
+rawcruisedata<-read_csv("BAY922.csv")
 
 #save a copy to the stripd bass habitat:
 #fwrite(rawcruisedata, file = here("Striped-Bass-Habitat-Suitability"), "BAY893.csv", row.names=FALSE)
@@ -630,7 +630,7 @@ historicbaydata_fishingareas_plot
 ###########Fishing Hot Spots:
 
 #historic suitability -- based on prev years, no modification needed
-historicalmeans_hotspots<-read_csv("historicalmeans85-24_hotspots.csv")
+historicalmeans_hotspots<-read_csv("historicalmeans85_24_hotspots.csv")
 
 #this: you modify the csv by inserting this month's percent suitable in excel
 #once you've done that, you can load it in.
@@ -654,8 +654,8 @@ historicmeans_hs_plot <-ggplot(historicalmeans_hs, aes(x=as.factor(monthseq)))+
   geom_line(mapping=aes(x=monthseq, y=meansuitability, color=timekey))+
   theme_classic()+
   scale_x_discrete(breaks=c(breaks), labels=c(labels))+
-  scale_color_manual(name="Suitability Dataset", values=c("dodgerblue", "darkgreen"), labels=c("Current Year", "Historic Mean (1985-22)"))+
-  scale_fill_manual(name="Suitability Dataset", values=c("darkgreen"), labels=c("Historic Range (1985-22)"))+
+  scale_color_manual(name="Suitability Dataset", values=c("dodgerblue", "darkgreen"), labels=c("Current Year", "Historic Mean (1985-25)"))+
+  scale_fill_manual(name="Suitability Dataset", values=c("darkgreen"), labels=c("Historic Range (1985-25)"))+
   xlab("Month")+
   ylab("Suitable Percent of Habitat")+
   theme(text=element_text(size=14),
@@ -670,7 +670,7 @@ historicmeans_hs_plot
 #######Entire Bay:
 
 #historic suitability -- based on prev years, no modification needed
-historicalmeans_wholebay<-read_csv("historicalmeans85-24_wholebay.csv")
+historicalmeans_wholebay<-read_csv("historicalmeans85_24_wholebay.csv")
 
 #this: you modify the csv by inserting this month's percent suitable in excel
 #once you've done that, you can load it in.
@@ -694,8 +694,8 @@ historicmeans_wb_plot <-ggplot(historicalmeans_wb, aes(x=as.factor(monthseq)))+
   geom_line(mapping=aes(x=monthseq, y=meansuitability, color=timekey))+
   theme_classic()+
   scale_x_discrete(breaks=c(breaks), labels=c(labels))+
-  scale_color_manual(name="Suitability Dataset", values=c("dodgerblue", "darkgreen"), labels=c("Current Year", "Historic Mean (1985-22)"))+
-  scale_fill_manual(name="Suitability Dataset", values=c("darkgreen"), labels=c("Historic Range (1985-22)"))+
+  scale_color_manual(name="Suitability Dataset", values=c("dodgerblue", "darkgreen"), labels=c("Current Year", "Historic Mean (1985-25)"))+
+  scale_fill_manual(name="Suitability Dataset", values=c("darkgreen"), labels=c("Historic Range (1985-25)"))+
   xlab("Month")+
   ylab("Suitable Percent of Habitat")+
   theme(text=element_text(size=14),
